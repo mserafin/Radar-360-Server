@@ -1,0 +1,23 @@
+{
+  "name": "radar-server",
+  "description": "Server for Radar UI.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js 8090 COM6 115200",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:fix": "./node_modules/.bin/eslint . --fix"
+  },
+  "dependencies": {
+    "log4js": "^2.7.0",
+    "serialport": "^6.2.1",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "author": "Mariusz Serafin",
+  "license": "MIT"
+}
